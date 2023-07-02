@@ -92,9 +92,9 @@ motivator(r_params)
 
 ### Professional Experience
 
-| Year           | Employment                     |                                             Position                                             |
-| -------------- | ------------------------------ | :----------------------------------------------------------------------------------------------: |
-| 2021 — Present | ECOPSY Company, Moscow, Russia | - Junior R Lang Developer, analyst (- 2022 — Present)<br>- R&D specialist, analyst (2021 — 2022) |
+| Year           | Employment                     |                                            Position                                            |
+| -------------- | ------------------------------ | :--------------------------------------------------------------------------------------------: |
+| 2021 — Present | ECOPSY Company, Moscow, Russia | - Junior R Lang Developer, analyst (2022 — Present)<br>- R&D specialist, analyst (2021 — 2022) |
 
 ---
 
