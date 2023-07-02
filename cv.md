@@ -59,9 +59,45 @@ I am a Junior Frontend Developer with experience in programming reports using R 
 
 ### Code Example
 
+```{r motivator}
+motivator <- function(params) {
+  sorted_scores <- sort(unlist(r_params$scores[scales_main]), decreasing = TRUE)
+  top_scales <- names(sorted_scores[sorted_scores > 70])
+  if (length(top_scales) > 3) {
+    top_scales <- top_scales[1:3]
+     if (any(duplicated(sorted_scores[1:4]))) {
+      max_scores <- sorted_scores[1:4]
+      top_scales <- names(max_scores)
+     }
+   }
+  if (length(top_scales) == 0 || all(sorted_scores <= 70)) {
+    med_score <- max(unlist(r_params$scores[scales_main]))
+    top_scales <- names(params$scores)[which(params$scores == med_score)]
+  }
+  top_scales_text <- lapply(top_scales, function(scale) {
+    if (length(top_scales) == 0 || all(sorted_scores <= 70)) {
+    paste0("<div class='motivator_scale_title'>", params$texts[[scale]]$scale_title, " </div>",
+           "<div class='motivator_scale_description'>", params$texts[[scale]]$scale_description_med, "</div>")
+    } else {
+      paste0("<div class='motivator_scale_title'>", params$texts[[scale]]$scale_title, " </div>",
+           "<div class='motivator_scale_description'>", params$texts[[scale]]$scale_description_high, "</div>")
+    }
+  })
+  htmltools::HTML(paste("<div>", paste(top_scales_text, collapse = "</div><div>"), "</div>"))
+}
+motivator(r_params)
+```
+
 ---
 
 ### Professional Experience
+
+| Year           |           Employment           |
+| -------------- | :----------------------------: |
+| 2021 — Present | ECOPSY Company, Moscow, Russia |
+
+- 2021 — 2022 R&D specialist, analyst
+- 2022 — Present Junior R Lang Developer, analyst |
 
 ---
 
@@ -69,9 +105,14 @@ I am a Junior Frontend Developer with experience in programming reports using R 
 
 | Year                 |                                                Education                                                |
 | -------------------- | :-----------------------------------------------------------------------------------------------------: |
-| **Higher Education** |                                                                                                         |
+| **Higher Education** |
 | 2022                 | National Research University "Higher School of Economics", Moscow, Social Sciences, Positive Psychology |
 | 2014                 |                   Moscow State University, Moscow, Psychology, Psychologist-Educator                    |
+
+| **Courses** |
+| In process | RS School, JavaScript/Front-end. Stage 0 |
+| 2020 | Smirnov School, Fundamentals of CG Drawing|
+| 2014 | Computer Training Center "Specialist" at Bauman Moscow State Technical University, Graphic Design Specialist |
 
 ---
 
