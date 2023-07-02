@@ -67,12 +67,11 @@ I am a Junior Frontend Developer with experience in programming reports using R 
 
 ### Education
 
-| Year                              |                                                Education                                                |
-| --------------------------------- | :-----------------------------------------------------------------------------------------------------: |
-| **Higher** &#124; **Education**   |                                                                                                         |
-| 2022                              | National Research University "Higher School of Economics", Moscow, Social Sciences, Positive Psychology |
-| 2014                              |                                     Moscow State University, Moscow                                     |
-| Psychology, Psychologist-Educator |
+| Year                 |                                                Education                                                |
+| -------------------- | :-----------------------------------------------------------------------------------------------------: |
+| **Higher Education** |                                                                                                         |
+| 2022                 | National Research University "Higher School of Economics", Moscow, Social Sciences, Positive Psychology |
+| 2014                 |                   Moscow State University, Moscow, Psychology, Psychologist-Educator                    |
 
 ---
 
