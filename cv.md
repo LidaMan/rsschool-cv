@@ -54,3 +54,5 @@ I am a Junior Frontend Developer with experience in programming reports using R 
 **Statistical analysis:**
 
 - IBM SPSS
+
+---
