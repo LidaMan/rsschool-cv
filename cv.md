@@ -92,27 +92,23 @@ motivator(r_params)
 
 ### Professional Experience
 
-| Year           |           Employment           |
-| -------------- | :----------------------------: |
-| 2021 — Present | ECOPSY Company, Moscow, Russia |
-
-- 2021 — 2022 R&D specialist, analyst
-- 2022 — Present Junior R Lang Developer, analyst |
+| Year           | Employment                     |                                          Position                                           |
+| -------------- | ------------------------------ | :-----------------------------------------------------------------------------------------: |
+| 2021 — Present | ECOPSY Company, Moscow, Russia | - 2021 — 2022 R&D specialist, analyst <br>- 2022 — Present Junior R Lang Developer, analyst |
 
 ---
 
 ### Education
 
-| Year                 |                                                Education                                                |
-| -------------------- | :-----------------------------------------------------------------------------------------------------: |
-| **Higher Education** |
-| 2022                 | National Research University "Higher School of Economics", Moscow, Social Sciences, Positive Psychology |
-| 2014                 |                   Moscow State University, Moscow, Psychology, Psychologist-Educator                    |
-
-| **Courses** |
-| In process | RS School, JavaScript/Front-end. Stage 0 |
-| 2020 | Smirnov School, Fundamentals of CG Drawing|
-| 2014 | Computer Training Center "Specialist" at Bauman Moscow State Technical University, Graphic Design Specialist |
+| Year                 |                                                  Education                                                   |
+| -------------------- | :----------------------------------------------------------------------------------------------------------: |
+| **Higher Education** |                                                                                                              |
+| 2022                 |   National Research University "Higher School of Economics", Moscow, Social Sciences, Positive Psychology    |
+| 2014                 |                      Moscow State University, Moscow, Psychology, Psychologist-Educator                      |
+| **Courses**          |                                                                                                              |
+| In process           |                                   RS School, JavaScript/Front-end. Stage0                                    |
+| 2020                 |                                  Smirnov School, Fundamentals of CG Drawing                                  |
+| 2014                 | Computer Training Center "Specialist" at Bauman Moscow State Technical University, Graphic Design Specialist |
 
 ---
 
